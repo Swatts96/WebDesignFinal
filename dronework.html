@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sam Watts Portfolio</title>
+        <script src="https://cdn.jsdelivr.net/npm/alpinejs" defer></script>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <link href="./dist/styles.css" rel="stylesheet">
+    </head>
+
+<body class="font-sans" style="background: linear-gradient(to right, #646f58, #333333);">
+    <!-- Navbar -->
+    
+    <!-- Social Media Icons -->
+    <div class="container mx-auto flex items-center justify-between px-6 py-4 border-b border-white-500">
+        <!-- Social Media Icons -->
+        <div class="flex space-x-2">
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <img src="/images/instagram.png" alt="Instagram" class="w-6 h-6">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+                <img src="/images/linkedin.png" alt="LinkedIn" class="w-6 h-6">
+            </a>
+            <a href="https://www.github.com" target="_blank" aria-label="GitHub">
+                <img src="/images/github.png" alt="GitHub" class="w-6 h-6">
+            </a>
+        </div>
+        
+        <!-- Navigation -->
+        <nav class="space-x-6">
+            <a href="/index.html" class="text-white hover:text-gray-300">Home</a>
+            <a href="#projects" class="text-white hover:text-gray-300">Projects</a>
+            <a href="/dronework.html" class="text-white hover:text-gray-300">Drone Work</a>
+            <a href="#contact" class="text-white hover:text-gray-300">Contact</a>
+        </nav>
+    </div>
+
+  <!-- Main Page -->
+<section id="home" class="pt-20 px-6 min-h-screen text-center ">
+
+      <!-- Video Section -->
+      <section id="home" class="pt-20 px-6 min-h-screen text-center py-10">
+        <h3 class="text-3xl font-semibold text-gray-100 mb-6 ">Recent Aerial Photography</h3>
+        <video autoplay loop muted playsinline class="w-full h-auto rounded-lg shadow-md">
+            <source src="videos/PrinceArthurOverhead.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+      <!-- Recent Aerial Photography -->
+      <section id="aerial-photography" class="py-12 border-b border-t border-white-500">
+        <div class="container mx-auto px-6 ">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white shadow-md rounded-lg p-4">
+                    <img src="images/coxeath.jpg" alt="Ketch Harbour, NS" class="w-full h-half object-cover rounded-lg mb-4">
+                   
+                    <h4 class="text-lg font-bold text-gray-700">Dartmouth, NS</h4>
+                    <p class="text-gray-600 mt-2">Date: June 4, 2024</p>
+                    <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl. nisl. </p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-4">
+                    <img src="images/lyons.jpg" alt="Ketch Harbour, NS" class="w-full h-half object-cover rounded-lg mb-4">
+                   
+                    <h4 class="text-lg font-bold text-gray-700">Kentville, NS</h4>
+                    <p class="text-gray-600 mt-2">Date: July 12, 2024</p>
+                    <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl. nisl. </p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-4">
+                    <img src="images/ketch.jpg" alt="Ketch Harbour, NS" class="w-full h-half object-cover rounded-lg mb-4">
+                    <h4 class="text-lg font-bold text-gray-700">Ketch Harbour, NS</h4>
+                    <p class="text-gray-600 mt-2">Date: Nov 2, 2024</p>
+                    <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl. nisl. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+ <!-- Static Image Section -->
+ <section id="projects" class="py-12">
+    <div class="container mx-auto px-6">
+        <img src="images/Coxeath_2.jpg" alt="Static Image" class="w-full rounded-lg shadow-md">
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto text-center">
+            <h4 class="text-2xl font-semibold">ALL PHOTO AND VIDEO TAKEN BY AND BELONGS TO SAM WATTS</h4>
+            <p class="text-gray-400 mt-4">Email: <a href="mailto:example@example.com" class="text-blue-400">example@example.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>
+
