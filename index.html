@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sam Watts Portfolio</title>
+        <script src="https://cdn.jsdelivr.net/npm/alpinejs" defer></script>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <link href="./dist/styles.css" rel="stylesheet">
+    </head>
+
+<body class="font-sans" style="background: linear-gradient(to right, #646f58, #333333);">
+    <!-- Navbar -->
+    
+    <!-- Social Media Icons -->
+    <div class="container mx-auto flex items-center justify-between px-6 py-4 border-b border-white-500">
+        <!-- Social Media Icons -->
+        <div class="flex space-x-2">
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <img src="/images/instagram.png" alt="Instagram" class="w-6 h-6">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+                <img src="/images/linkedin.png" alt="LinkedIn" class="w-6 h-6">
+            </a>
+            <a href="https://www.github.com" target="_blank" aria-label="GitHub">
+                <img src="/images/github.png" alt="GitHub" class="w-6 h-6">
+            </a>
+        </div>
+        
+        <!-- Navigation -->
+        <nav class="space-x-6">
+            <a href="#home" class="text-white hover:text-gray-300">Home</a>
+            <a href="#projects" class="text-white hover:text-gray-300">Projects</a>
+            <a href="/dronework.html" class="text-white hover:text-gray-300">Drone Work</a>
+            <a href="#contact" class="text-white hover:text-gray-300">Contact</a>
+        </nav>
+    </div>
+
+  <!-- Main Page -->
+<section id="home" class="pt-20 px-6 min-h-screen text-center ">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center p-4 py-12 border-b border-white-500">
+        <!-- Intro Text -->
+        <div>
+            <h2 class="text-4xl font-extrabold text-gray-100 mb-4">Hi, I’m <span class="text-pink-400">Sam</span></h2>
+            <p class="text-lg text-gray-200 leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl. Etiam tempor sagittis efficitur. Maecenas lobortis, libero nec convallis consequat, felis neque mattis magna, at feugiat enim mi eget elit. 
+                <br><br>
+                Cras quis luctus augue, quis hendrerit tortor. In rutrum rhoncus risus, a venenatis nulla tempor ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nisi ante, feugiat id eros at, posuere maximus turpis. Curabitur ac quam ac lectus bibendum imperdiet sed et libero.
+            </p>
+        </div>
+        <!-- Profile Image -->
+        <div class="flex justify-center">
+            <img src="images/headshot.png" alt="Sam Watts" class="w-64 h-64 rounded-full shadow-md border-4 border-gray-200">
+        </div>
+    </div>
+
+
+
+<!-- Projects Section -->
+<section id="projects" class="py-12 border-b border-white-500">
+    <div class="container mx-auto px-6">
+        <h3 class="text-3xl font-semibold text-gray-100 mb-6">
+            Recent <span class="text-pink-400">Projects</span>
+        </h3>
+        <div class="space-y-6">
+            <!-- Project 2 -->
+            <div class="bg-gray-200 shadow-md rounded-lg p-6 flex items-center">
+                <img src="images/proj2.png" alt="Project 2 Icon" class="w-16 h-16 rounded-full mr-6">
+                <div class="flex-1">
+                    <h4 class="text-xl font-bold text-gray-700">Project 1</h4>
+                    <p class="text-gray-600 mt-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl.                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl.
+
+                    </p>
+                    <div class="flex space-x-2 mt-4">
+                        <span class="px-2 py-1 bg-pink-400 text-white rounded-full text-sm">HTML</span>
+                        <span class="px-2 py-1 bg-blue-400 text-white rounded-full text-sm">CSS</span>
+                        <span class="px-2 py-1 bg-yellow-400 text-white rounded-full text-sm">JS</span>
+                    </div>
+                </div>
+                <div class="ml-6">
+                    <span class="text-gray-500 text-2xl font-bold">&rarr;</span>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="bg-gray-200 shadow-md rounded-lg p-6 flex items-center">
+                <img src="images/proj1.png" alt="Project 3 Icon" class="w-16 h-16 rounded-full mr-6">
+                <div class="flex-1">
+                    <h4 class="text-xl font-bold text-gray-700">Project 2</h4>
+                    <p class="text-gray-600 mt-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl.                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl.
+                    </p>
+                    <div class="flex space-x-2 mt-4">
+                        <span class="px-2 py-1 bg-green-400 text-white rounded-full text-sm">SQL</span>
+                        <span class="px-2 py-1 bg-emerald-900 text-white rounded-full text-sm">React</span>
+                        <span class="px-2 py-1 bg-yellow-400 text-white rounded-full text-sm">JS</span>
+                        <span class="px-2 py-1 bg-pink-400 text-white rounded-full text-sm">HTML</span>
+                    </div>
+                </div>
+                <div class="ml-6">
+                    <span class="text-gray-500 text-2xl font-bold">&rarr;</span>
+                </div>
+            </div>
+
+            <!-- Project 1 -->
+            <div class="bg-gray-200 shadow-md rounded-lg p-6 flex items-center">
+                <img src="images/proj3.png" alt="Project 1 Icon" class="w-16 h-16 rounded-full mr-6">
+                <div class="flex-1">
+                    <h4 class="text-xl font-bold text-gray-700">Project 3</h4>
+                    <p class="text-gray-600 mt-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl.                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl.
+                    </p>
+                    <div class="flex space-x-2 mt-4">
+                        <span class="px-2 py-1 bg-yellow-400 text-white rounded-full text-sm">JS</span>
+                        <span class="px-2 py-1 bg-green-400 text-white rounded-full text-sm">SQL</span>
+                        <span class="px-2 py-1 bg-emerald-900 text-white rounded-full text-sm">React</span>
+                        <span class="px-2 py-1 bg-pink-400 text-white rounded-full text-sm">CSS</span>
+                    </div>
+                </div>
+                <div class="ml-6">
+                    <span class="text-gray-500 text-2xl font-bold">&rarr;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Recent Aerial Photography -->
+    <section id="aerial-photography" class="py-12">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-semibold text-gray-100 mb-6">Recent Aerial Photography</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white shadow-md rounded-lg p-4">
+                    <img src="images/coxeath.jpg" alt="Ketch Harbour, NS" class="w-full h-half object-cover rounded-lg mb-4">
+                   
+                    <h4 class="text-lg font-bold text-gray-700">Dartmouth, NS</h4>
+                    <p class="text-gray-600 mt-2">Date: June 4, 2024</p>
+                    <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl. nisl. </p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-4">
+                    <img src="images/lyons.jpg" alt="Ketch Harbour, NS" class="w-full h-half object-cover rounded-lg mb-4">
+                   
+                    <h4 class="text-lg font-bold text-gray-700">Kentville, NS</h4>
+                    <p class="text-gray-600 mt-2">Date: July 12, 2024</p>
+                    <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl. nisl. </p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-4">
+                    <img src="images/ketch.jpg" alt="Ketch Harbour, NS" class="w-full h-half object-cover rounded-lg mb-4">
+                    <h4 class="text-lg font-bold text-gray-700">Ketch Harbour, NS</h4>
+                    <p class="text-gray-600 mt-2">Date: Nov 2, 2024</p>
+                    <p class="text-gray-600 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lacus mi, molestie at tellus at, ornare porta nisl. nisl. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto text-center">
+            <h4 class="text-2xl font-semibold">Get in Touch</h4>
+            <p class="text-gray-400 mt-4">Email: <a href="mailto:example@example.com" class="text-blue-400">example@example.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>
